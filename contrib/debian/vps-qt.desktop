@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VPS
+Comment=VPS P2P Cryptocurrency
+Comment[fr]=VPS, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=VPS, eşten eşe kriptografik sanal para birimi
+Exec=vps-qt %u
+Terminal=false
+Type=Application
+Icon=vps128
+MimeType=x-scheme-handler/vps;
+Categories=Office;Finance;

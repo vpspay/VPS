@@ -1,0 +1,26 @@
+# /etc/conf.d/vpsd: config file for /etc/init.d/vpsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vps/vpspay.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vpsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vpsd.pid"
+
+# Where to write vpsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vpsd"
+
+# User and group to own vpsd process
+#BITCOIND_USER="vps"
+#BITCOIND_GROUP="vps"
+
+# Path to vpsd executable
+#BITCOIND_BIN="/usr/bin/vpsd"
+
+# Nice value to run vpsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
